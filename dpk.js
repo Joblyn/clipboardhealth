@@ -23,7 +23,7 @@ function getPartitionKeyCandidate(event) {
     }
   }
 
-  return undefined;
+  return event;
 }
 
 function hashCandidate(candidate) {
